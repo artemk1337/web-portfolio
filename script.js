@@ -10,57 +10,63 @@ const translations = {
     "nav.stack": "Стек",
     "nav.education": "Сертификаты",
     "nav.contact": "Контакты",
-    "hero.eyebrow": "Resume-first · Moscow · Polymatica",
-    "hero.title": "Artem K",
+    "hero.eyebrow": "VK · Russia · Moscow",
+    "hero.title": "Artem K / Кущ Артем / Kushch Artem",
+    "hero.subtitle": "Кущ Артем / Kushch Artem",
     "hero.lead":
-      "Computer Vision Research Engineer и backend-разработчик на Go и Python. На этой странице собраны опыт, сертификаты, GitHub-активность и проекты в формате короткого резюме.",
+      "Senior+ Golang developer и backend-разработчик на Python, с опытом Computer Vision. На этой странице собраны опыт, сертификаты, GitHub-активность и проекты в формате короткого резюме.",
     "hero.github": "GitHub",
     "hero.gitlab": "GitLab",
     "hero.projects": "Смотреть проекты",
     "hero.panel.focus.label": "Resume",
-    "hero.panel.focus.title": "Резюме, backend, computer vision",
+    "hero.panel.focus.title": "Senior+ Go, Python и Computer Vision",
     "hero.panel.focus.text":
-      "Lead / Senior+ Golang, computer vision, backend-сервисы и прикладной ML. Важно показать не только стек, но и реальные роли, сертификаты и репозитории.",
-    "hero.panel.achievements.label": "GitHub",
-    "hero.panel.achievements.value1": "59 repos",
-    "hero.panel.achievements.value2": "47 stars · Pull Shark",
-    "hero.panel.location.label": "Certificates",
+      "Senior+ Golang developer first, Python second, Computer Vision experience after that. Backend-сервисы, прикладной ML и инженерные задачи с измеримым результатом.",
+    "hero.panel.achievements.label": "Current role",
+    "hero.panel.achievements.value1": "Senior+ Golang developer",
+    "hero.panel.achievements.value2": "Python / Computer Vision",
+    "hero.panel.location.label": "Current workplace",
     "stats.repos.label": "Repos",
     "stats.companies.label": "Companies",
     "stats.certificates.label": "Certificates",
     "stats.profile.label": "Profile",
     "about.eyebrow": "Обо мне",
     "about.title": "Короткий профиль для резюме",
-    "about.point1": "Computer Vision Research Engineer и backend-разработчик на Go и Python.",
-    "about.point2": "Опыт в VK, Pasul Ltd, X5 Digital, ISGNeuro и citis.",
-    "about.point3": "Фокус на ML, CV, backend, парсерах и инженерной автоматизации.",
+    "about.point1": "Senior+ Golang developer и backend-разработчик на Python.",
+    "about.point2": "Computer Vision Research Engineer опыт после backend-профиля.",
+    "about.point3": "Опыт в VK, Pasul Ltd, X5 Digital, ISGNeuro и citis.",
     "about.point4": "GitHub-репозитории, хакатоны и сертификаты подтверждают практику, а не только интерес.",
     "about.text2":
       "Для сайта я перенёс акцент с «портфолио» на «резюме»: тут должны быстро читаться опыт, сертификаты, GitHub-активность и проекты с конкретной инженерной ценностью.",
     "experience.eyebrow": "Опыт",
-    "experience.title": "Ключевые роли и компании",
+    "experience.title": "Ключевые роли, страны и годы",
     "experience.vk.title": "VK",
-    "experience.vk.1": "Lead / Senior+ Golang",
-    "experience.vk.2": "High-load backend, observability, CI/CD",
-    "experience.vk.3": "Code review, postmortem, SLA / quality tiers",
+    "experience.vk.1": "Russia, Aug 2024 - Present",
+    "experience.vk.2": "Lead / Senior+ Golang",
+    "experience.vk.3": "High-load backend, observability, CI/CD, code review",
     "experience.pasul.title": "Pasul Ltd",
-    "experience.pasul.1": "Back-end developer",
-    "experience.pasul.2": "Golang, Java, gRPC / REST, VPN gateway",
-    "experience.pasul.3": "Prometheus, GitLab CI/CD, Docker, Kubernetes",
+    "experience.pasul.1": "Russia, Sep 2023 - Feb 2024",
+    "experience.pasul.2": "Back-end developer",
+    "experience.pasul.3": "Golang, Java, gRPC / REST, VPN gateway",
     "experience.x5.title": "X5 Digital",
-    "experience.x5.1": "Golang, PHP",
-    "experience.x5.2": "Kafka, PostgreSQL, Etcd, Redis",
-    "experience.x5.3": "Docker, Kubernetes, Grafana, PlantUML",
+    "experience.x5.1": "Russia, Sep 2023 - Feb 2024",
+    "experience.x5.2": "Middle backend developer",
+    "experience.x5.3": "Golang, PHP, Kafka, PostgreSQL, Redis",
     "experience.edu.title": "ISGNeuro / citis",
-    "experience.edu.1": "Python, Django, Flask, Qt",
-    "experience.edu.2": "TensorFlow, CUDA, Numba, multiprocessing",
-    "experience.edu.3": "Oracle, MySQL, PostgreSQL, SQLite",
+    "experience.edu.1": "Russia, Jul 2021 - Aug 2022",
+    "experience.edu.2": "Software Engineer / Computer Vision Engineer",
+    "experience.edu.3": "Python, Django, Flask, Qt, TensorFlow, CUDA",
     "experience.github.title": "GitHub",
-    "experience.github.1": "59 repositories and open-source activity",
+    "experience.github.1": "Open-source activity and 59 repositories",
     "experience.github.2": "Pull Shark and Arctic Code Vault Contributor",
     "experience.github.3": "Практика на repo-level: парсеры, ML, C, bots",
     "stack.eyebrow": "Стек",
-    "stack.title": "Стек, который виден в резюме и репозиториях",
+    "stack.title": "Стек, сгруппированный по слоям",
+    "stack.group.languages": "Языки программирования",
+    "stack.group.backend": "Backend и инфраструктура",
+    "stack.group.data": "Базы данных и очереди",
+    "stack.group.observability": "Мониторинг и аналитика",
+    "stack.group.cv": "ML / Computer Vision",
     "projects.eyebrow": "Проекты",
     "projects.title": "Выбранные репозитории и инженерные кейсы",
     "projects.p1":
@@ -76,14 +82,9 @@ const translations = {
     "projects.p6":
       "Эксперименты с embedding layers и contrastive loss на MNIST. Хорошая иллюстрация интереса к deep learning и экспериментам с архитектурами.",
     "projects.open": "Открыть",
-    "edu.eyebrow": "Опыт",
-    "edu.title": "Сертификаты, курсы и активность",
+    "edu.eyebrow": "Сертификаты",
+    "edu.title": "Сертификаты и курсы",
     "edu.cert.title": "Certificates",
-    "edu.cert.1":
-      "TensorFlow Certificate Developer (10.2020-10.2023) — подтверждает базу по TensorFlow и deep learning.",
-    "edu.cert.2": "DeepLearning.AI TensorFlow Developer — показывает прикладной контекст и ML-фокус.",
-    "edu.cert.3":
-      "NVIDIA CUDA and accelerated computing — хорошо дополняет интерес к HPC и ускоренным вычислениям.",
     "edu.hack.title": "Hackathons",
     "edu.hack.1": "Cup-IT DS 2020, 3rd place — практический результат с командной работой и дедлайнами.",
     "edu.hack.2": "Fintech Security Superhero, final stage — подтверждение способности доводить идеи до финала.",
@@ -104,57 +105,63 @@ const translations = {
     "nav.stack": "Stack",
     "nav.education": "Certificates",
     "nav.contact": "Contact",
-    "hero.eyebrow": "Resume-first · Moscow · Polymatica",
-    "hero.title": "Artem K",
+    "hero.eyebrow": "VK · Russia · Moscow",
+    "hero.title": "Artem K / Kushch Artem / Кущ Артем",
+    "hero.subtitle": "Kushch Artem / Кущ Артем",
     "hero.lead":
-      "Computer Vision Research Engineer and backend developer working with Go and Python. This page highlights experience, certificates, GitHub activity and projects as a short resume.",
+      "Senior+ Golang developer and backend developer in Python, with Computer Vision experience. This page highlights experience, certificates, GitHub activity and projects as a short resume.",
     "hero.github": "GitHub",
     "hero.gitlab": "GitLab",
     "hero.projects": "View projects",
     "hero.panel.focus.label": "Resume",
-    "hero.panel.focus.title": "Resume, backend, computer vision",
+    "hero.panel.focus.title": "Senior+ Go, Python and Computer Vision",
     "hero.panel.focus.text":
-      "Lead / Senior+ Golang, computer vision, backend services and applied ML. The page should show not only the stack, but also real roles, certificates and repositories.",
-    "hero.panel.achievements.label": "GitHub",
-    "hero.panel.achievements.value1": "59 repos",
-    "hero.panel.achievements.value2": "47 stars · Pull Shark",
-    "hero.panel.location.label": "Certificates",
+      "Senior+ Golang developer first, Python second, Computer Vision experience after that. Backend services, applied ML and engineering tasks with measurable results.",
+    "hero.panel.achievements.label": "Current role",
+    "hero.panel.achievements.value1": "Senior+ Golang developer",
+    "hero.panel.achievements.value2": "Python / Computer Vision",
+    "hero.panel.location.label": "Current workplace",
     "stats.repos.label": "Repos",
     "stats.companies.label": "Companies",
     "stats.certificates.label": "Certificates",
     "stats.profile.label": "Profile",
     "about.eyebrow": "About",
     "about.title": "Short profile for the resume",
-    "about.point1": "Computer Vision Research Engineer and backend developer with Go and Python.",
-    "about.point2": "Experience at VK, Pasul Ltd, X5 Digital, ISGNeuro and citis.",
-    "about.point3": "Focus on ML, CV, backend, parsers and engineering automation.",
+    "about.point1": "Senior+ Golang developer and backend developer in Python.",
+    "about.point2": "Computer Vision Research Engineer experience after the backend profile.",
+    "about.point3": "Experience at VK, Pasul Ltd, X5 Digital, ISGNeuro and citis.",
     "about.point4": "GitHub repositories, hackathons and certificates show practice, not just interest.",
     "about.text2":
       "For the site I shifted the emphasis from a pure portfolio to a resume: experience, certificates, GitHub activity and projects with clear engineering value should be visible first.",
     "experience.eyebrow": "Experience",
-    "experience.title": "Key roles and companies",
+    "experience.title": "Key roles, countries and years",
     "experience.vk.title": "VK",
-    "experience.vk.1": "Lead / Senior+ Golang",
-    "experience.vk.2": "High-load backend, observability, CI/CD",
-    "experience.vk.3": "Code review, postmortem, SLA / quality tiers",
+    "experience.vk.1": "Russia, Aug 2024 - Present",
+    "experience.vk.2": "Lead / Senior+ Golang",
+    "experience.vk.3": "High-load backend, observability, CI/CD, code review",
     "experience.pasul.title": "Pasul Ltd",
-    "experience.pasul.1": "Back-end developer",
-    "experience.pasul.2": "Golang, Java, gRPC / REST, VPN gateway",
-    "experience.pasul.3": "Prometheus, GitLab CI/CD, Docker, Kubernetes",
+    "experience.pasul.1": "Russia, Sep 2023 - Feb 2024",
+    "experience.pasul.2": "Back-end developer",
+    "experience.pasul.3": "Golang, Java, gRPC / REST, VPN gateway",
     "experience.x5.title": "X5 Digital",
-    "experience.x5.1": "Golang, PHP",
-    "experience.x5.2": "Kafka, PostgreSQL, Etcd, Redis",
-    "experience.x5.3": "Docker, Kubernetes, Grafana, PlantUML",
+    "experience.x5.1": "Russia, Sep 2023 - Feb 2024",
+    "experience.x5.2": "Middle backend developer",
+    "experience.x5.3": "Golang, PHP, Kafka, PostgreSQL, Redis",
     "experience.edu.title": "ISGNeuro / citis",
-    "experience.edu.1": "Python, Django, Flask, Qt",
-    "experience.edu.2": "TensorFlow, CUDA, Numba, multiprocessing",
-    "experience.edu.3": "Oracle, MySQL, PostgreSQL, SQLite",
+    "experience.edu.1": "Russia, Jul 2021 - Aug 2022",
+    "experience.edu.2": "Software Engineer / Computer Vision Engineer",
+    "experience.edu.3": "Python, Django, Flask, Qt, TensorFlow, CUDA",
     "experience.github.title": "GitHub",
-    "experience.github.1": "59 repositories and open-source activity",
+    "experience.github.1": "Open-source activity and 59 repositories",
     "experience.github.2": "Pull Shark and Arctic Code Vault Contributor",
     "experience.github.3": "Repo-level practice: parsers, ML, C, bots",
     "stack.eyebrow": "Stack",
-    "stack.title": "Stack visible in the resume and repos",
+    "stack.title": "Stack grouped by layers",
+    "stack.group.languages": "Programming languages",
+    "stack.group.backend": "Backend and infrastructure",
+    "stack.group.data": "Databases and queues",
+    "stack.group.observability": "Monitoring and analytics",
+    "stack.group.cv": "ML / Computer Vision",
     "projects.eyebrow": "Projects",
     "projects.title": "Selected repositories and engineering cases",
     "projects.p1":
@@ -170,14 +177,9 @@ const translations = {
     "projects.p6":
       "Experiments with embedding layers and contrastive loss on MNIST. A good illustration of interest in deep learning and model architecture experiments.",
     "projects.open": "Open",
-    "edu.eyebrow": "Experience",
-    "edu.title": "Certificates, courses and activity",
+    "edu.eyebrow": "Certificates",
+    "edu.title": "Certificates and courses",
     "edu.cert.title": "Certificates",
-    "edu.cert.1":
-      "TensorFlow Certificate Developer (10.2020-10.2023) — confirms the TensorFlow and deep learning foundation.",
-    "edu.cert.2": "DeepLearning.AI TensorFlow Developer — shows applied context and ML focus.",
-    "edu.cert.3":
-      "NVIDIA CUDA and accelerated computing — a relevant layer for HPC and accelerated workloads.",
     "edu.hack.title": "Hackathons",
     "edu.hack.1": "Cup-IT DS 2020, 3rd place — practical result with teamwork and deadlines.",
     "edu.hack.2": "Fintech Security Superhero, final stage — proof of ability to bring ideas to the finish line.",
@@ -212,8 +214,61 @@ function setLanguage(lang) {
   });
 }
 
-const preferredLanguage = window.localStorage.getItem("portfolio-lang") || "ru";
-setLanguage(preferredLanguage);
+function renderCertificates(certificates) {
+  const container = document.getElementById("certificates-list");
+  const counters = [
+    document.getElementById("certificate-count"),
+    document.getElementById("education-count"),
+  ];
+  const lang = currentLanguage;
+  const items = Array.isArray(certificates) ? certificates : certificates.items || [];
+
+  if (!container) {
+    return;
+  }
+
+  container.innerHTML = items
+    .map(
+      (certificate) => `
+        <article class="certificate-card">
+          <h3>${certificate.title[lang] || certificate.title.ru}</h3>
+          <div class="certificate-meta">
+            <span>${certificate.issuer[lang] || certificate.issuer.ru}</span>
+            <span>${certificate.year}</span>
+          </div>
+          <a href="${certificate.href}" target="_blank" rel="noreferrer">
+            ${lang === "en" ? "Open PDF" : "Открыть PDF"}
+          </a>
+        </article>
+      `
+    )
+    .join("");
+
+  counters.forEach((counter) => {
+    if (counter) {
+      counter.textContent = String(items.length);
+    }
+  });
+}
+
+async function loadCertificates() {
+  try {
+    const response = await fetch("data/certificates.json");
+    if (!response.ok) {
+      throw new Error(`Failed to load certificates: ${response.status}`);
+    }
+
+    const payload = await response.json();
+    const certificates = Array.isArray(payload.certificates) ? payload.certificates : payload;
+    renderCertificates(certificates);
+  } catch (error) {
+    renderCertificates([]);
+  }
+}
+
+setLanguage(currentLanguage);
+
+loadCertificates();
 
 langButtons.forEach((button) => {
   button.addEventListener("click", () => {

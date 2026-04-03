@@ -192,6 +192,13 @@ h1 {
   color: var(--muted);
 }
 
+.name-subtitle {
+  margin: -0.5rem 0 1rem;
+  color: #d8e3f7;
+  font: 600 0.95rem/1.4 "IBM Plex Mono", monospace;
+  letter-spacing: 0.06em;
+}
+
 .hero-actions {
   display: flex;
   flex-wrap: wrap;
@@ -350,6 +357,26 @@ h1 {
   font-weight: 600;
 }
 
+.stack-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.stack-card {
+  padding: 1.35rem;
+  border-radius: 26px;
+  background: linear-gradient(180deg, rgba(15, 26, 43, 0.9), rgba(10, 18, 31, 0.95));
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow);
+}
+
+.stack-card h3 {
+  margin-bottom: 0.9rem;
+  font-size: 1rem;
+  letter-spacing: -0.02em;
+}
+
 .projects {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -427,6 +454,70 @@ h1 {
   margin-top: 0.45rem;
 }
 
+.education-card {
+  border-radius: 28px;
+  padding: 1.35rem;
+  background: linear-gradient(180deg, rgba(15, 26, 43, 0.9), rgba(10, 18, 31, 0.95));
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow);
+}
+
+.education-summary {
+  display: grid;
+  grid-template-columns: 180px 1fr;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 1.1rem;
+}
+
+.education-count {
+  margin: 0.1rem 0 0;
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: var(--text);
+}
+
+.education-text {
+  margin: 0;
+  color: var(--muted);
+}
+
+.certificate-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.9rem;
+}
+
+.certificate-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 1rem 1.05rem;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+.certificate-card h3 {
+  margin: 0;
+  font-size: 0.98rem;
+  line-height: 1.35;
+}
+
+.certificate-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  color: var(--muted);
+  font-size: 0.82rem;
+}
+
+.certificate-card a {
+  color: var(--accent);
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+
 .contact {
   padding-bottom: 5rem;
 }
@@ -458,7 +549,9 @@ h1 {
 @media (max-width: 980px) {
   .hero,
   .section-split,
-  .projects {
+  .projects,
+  .stack-grid,
+  .certificate-grid {
     grid-template-columns: 1fr;
   }
 
@@ -467,6 +560,10 @@ h1 {
   }
 
   .panel-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .education-summary {
     grid-template-columns: 1fr;
   }
 }
