@@ -42,21 +42,31 @@
     },
     {
       "id": "05",
+      "title": "Zernike transform",
+      "href": "https://github.com/artemk1337/zernike_transform",
+      "description": {
+        "ru": "Преобразование изображений полиномами Цернике.",
+        "en": "Image transformation with Zernike polynomials."
+      },
+      "tags": ["Python", "Image processing", "Zernike"]
+    },
+    {
+      "id": "06",
       "title": "ML Models on Pulsar",
       "href": "https://github.com/artemk1337/ML_test_all_models_on_pulsar",
       "description": {
-        "ru": "Сравнение ML-моделей на pulsar dataset. Хорошо показывает экспериментальный подход, сравнение метрик и аккуратную работу с данными.",
-        "en": "Comparison of ML models on the pulsar dataset. Shows an experimental mindset, metric comparison and careful work with data."
+        "ru": "Сравнение ML-моделей на pulsar dataset. Экспериментальный подход, метрики и аккуратная работа с данными.",
+        "en": "Comparison of ML models on the pulsar dataset. Experimental approach, metrics and careful work with data."
       },
       "tags": ["Python", "ML", "Metrics"]
     },
     {
-      "id": "06",
+      "id": "07",
       "title": "SiameseDCGAN",
       "href": "https://github.com/artemk1337/SiameseDCGAN-with-embedding-layers-and-contrastive-loss",
       "description": {
-        "ru": "Эксперименты с embedding layers и contrastive loss на MNIST. Хорошая иллюстрация интереса к deep learning и экспериментам с архитектурами.",
-        "en": "Experiments with embedding layers and contrastive loss on MNIST. A good illustration of interest in deep learning and model architecture experiments."
+        "ru": "Эксперименты с embedding layers и contrastive loss на MNIST. Короткая демонстрация deep learning и архитектурных экспериментов.",
+        "en": "Experiments with embedding layers and contrastive loss on MNIST. A short demo of deep learning and architecture experiments."
       },
       "tags": ["Deep Learning", "MNIST", "Contrastive loss"]
     }
