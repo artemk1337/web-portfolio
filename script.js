@@ -159,6 +159,7 @@ const labels = {
 };
 
 let currentLanguage = window.localStorage.getItem("portfolio-lang") || "ru";
+let revealObserver = null;
 const state = {
   profile: null,
   experience: [],
@@ -575,9 +576,7 @@ function renderProjects() {
     })
     .join("");
 
-  document.querySelectorAll("#projects .reveal").forEach((element) => {
-    element.classList.add("is-visible");
-  });
+  observeReveals(nodes.projectsGrid);
 }
 
 function renderCertificates() {
@@ -646,6 +645,16 @@ function updateScrollTopButton() {
   scrollTopButton.classList.toggle("is-visible", window.scrollY > 320);
 }
 
+function observeReveals(root = document) {
+  if (!revealObserver) {
+    return;
+  }
+
+  root.querySelectorAll(".reveal").forEach((element) => {
+    revealObserver.observe(element);
+  });
+}
+
 function renderAll() {
   renderTranslations();
   renderHero();
@@ -692,12 +701,12 @@ if (scrollTopButton) {
 }
 
 if ("IntersectionObserver" in window) {
-  const observer = new IntersectionObserver(
+  revealObserver = new IntersectionObserver(
     (entries) => {
       for (const entry of entries) {
         if (entry.isIntersecting) {
           entry.target.classList.add("is-visible");
-          observer.unobserve(entry.target);
+          revealObserver.unobserve(entry.target);
         }
       }
     },
@@ -706,9 +715,7 @@ if ("IntersectionObserver" in window) {
     }
   );
 
-  document.querySelectorAll(".reveal").forEach((element) => {
-    observer.observe(element);
-  });
+  observeReveals();
 } else {
   document.querySelectorAll(".reveal").forEach((element) => {
     element.classList.add("is-visible");
