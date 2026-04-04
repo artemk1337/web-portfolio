@@ -685,7 +685,6 @@ h1 {
   display: inline-flex;
   align-items: center;
   gap: 0.35rem;
-  cursor: help;
   transition:
     transform 0.18s ease,
     background 0.18s ease,

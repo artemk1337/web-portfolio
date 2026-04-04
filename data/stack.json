@@ -9,6 +9,8 @@
       "items": [
         { "name": "Golang", "tier": "core" },
         { "name": "Python", "tier": "core" },
+        { "name": "Java", "tier": "support" },
+        { "name": "Scala", "tier": "support" },
         { "name": "C", "tier": "support" },
         { "name": "PHP", "tier": "support" },
         { "name": "Rust", "tier": "support" }
@@ -33,7 +35,8 @@
         { "name": "Docker", "tier": "support" },
         { "name": "Linux", "tier": "support" },
         { "name": "Nginx", "tier": "support" },
-        { "name": "GitLab CI/CD", "tier": "support" }
+        { "name": "GitLab CI/CD", "tier": "support" },
+        { "name": "OneCloud", "tier": "support" }
       ]
     },
     {
@@ -62,7 +65,6 @@
         { "name": "Prometheus", "tier": "core" },
         { "name": "Statshouse", "tier": "support" },
         { "name": "pprof", "tier": "core" },
-        { "name": "OneCloud", "tier": "support" },
         { "name": "PlantUML", "tier": "support" }
       ]
     },

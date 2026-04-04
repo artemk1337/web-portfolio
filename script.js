@@ -207,7 +207,7 @@ function formatRussianCount(value, one, few, many) {
 }
 
 async function loadJson(path) {
-  const response = await fetch(path);
+  const response = await fetch(path, { cache: "no-store" });
   if (!response.ok) {
     throw new Error(`Failed to load ${path}: ${response.status}`);
   }
@@ -216,7 +216,7 @@ async function loadJson(path) {
 }
 
 async function loadJsonOptional(path) {
-  const response = await fetch(path);
+  const response = await fetch(path, { cache: "no-store" });
   if (response.status === 404) {
     return null;
   }
@@ -523,8 +523,7 @@ function renderStack() {
         .map((item) => {
           const value = typeof item === "string" ? item : localized(item.name || item.label || item);
           const tier = typeof item === "string" ? "support" : item.tier || "support";
-          const titleLabel = labels[currentLanguage][`stack.chip.${tier}`] || "";
-          return `<span class="chip chip-${tier}"${titleLabel ? ` title="${titleLabel}"` : ""}>${value}</span>`;
+          return `<span class="chip chip-${tier}">${value}</span>`;
         })
         .join("");
 
