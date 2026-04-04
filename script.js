@@ -379,20 +379,16 @@ function renderEducation() {
   }
 }
 
-function countryLabel(country) {
+function countryName(country) {
   if (country === "Cyprus") {
-    return { flag: "🇨🇾", ru: "Кипр", en: "Cyprus" };
+    return { ru: "Кипр", en: "Cyprus" };
   }
 
   if (country === "Russia") {
-    return { flag: "🇷🇺", ru: "РФ", en: "Russia" };
+    return { ru: "Россия", en: "Russia" };
   }
 
-  return { flag: "🌍", ru: country, en: country };
-}
-
-function normalizeCompany(company) {
-  return company;
+  return { ru: country, en: country };
 }
 
 function formatPeriod(period) {
@@ -436,10 +432,13 @@ function renderExperience() {
   nodes.experienceTimeline.innerHTML = state.experience
     .filter((item) => item && item.country !== "Global" && item.company !== "GitHub")
     .map((item, index) => {
-      const country = countryLabel(item.country);
-      const company = normalizeCompany(item.company);
-      const countryName = currentLanguage === "ru" ? country.ru : country.en;
-      const header = `${company}, ${countryName} — ${localized(item.role)}`;
+      const country = countryName(item.country);
+      const countryText = currentLanguage === "ru" ? country.ru : country.en;
+      const header = `
+        <span class="experience-company">${item.company}</span>
+        <span class="experience-role-text">— ${localized(item.role)}</span>
+        <span class="experience-country">· ${countryText}</span>
+      `;
 
       const period = formatPeriod(localized(item.period));
       const periodBlock = period ? `<p class="experience-period">${period}</p>` : "";

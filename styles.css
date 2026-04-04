@@ -939,6 +939,7 @@ h1 {
   display: flex;
   align-items: flex-start;
   gap: 0.55rem;
+  flex-wrap: wrap;
 }
 
 .experience-item h3::before {
@@ -955,6 +956,18 @@ h1 {
 .experience-item-featured h3::before {
   background: rgba(126, 224, 198, 0.8);
   box-shadow: 0 0 12px rgba(126, 224, 198, 0.4);
+}
+
+.experience-company {
+  color: #f4f8ff;
+}
+
+.experience-role-text {
+  color: #cfd9ea;
+}
+
+.experience-country {
+  color: rgba(126, 224, 198, 0.88);
 }
 
 .timeline ul {
