@@ -1,0 +1,29 @@
+{
+  "items": [
+    {
+      "school": "MISIS",
+      "degree": {
+        "ru": "Магистратура (MSc) в Data Science",
+        "en": "MSc in Data Science"
+      },
+      "year": "2024",
+      "notes": {
+        "ru": "Фокус: машинное обучение, анализ данных и обработка больших данных.",
+        "en": "Focused on machine learning, data analysis, and large-scale data processing."
+      }
+    },
+    {
+      "school": "MISIS",
+      "degree": {
+        "ru": "Бакалавриат (BSc) в Прикладной математике",
+        "en": "BSc in Applied Mathematics"
+      },
+      "year": "2022",
+      "notes": {
+        "ru": "Сильная база: математика, теория вероятностей и статистика.",
+        "en": "Strong foundation in mathematics, probability theory, and statistics."
+      }
+    }
+  ]
+}
+

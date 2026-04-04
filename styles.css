@@ -451,10 +451,12 @@ h1 {
   line-height: 1.05;
 }
 
-.panel-card-main p[data-i18n="hero.panel.focus.text"] {
-  margin-bottom: 1rem;
-  color: #d8e3f7;
-  line-height: 1.6;
+.panel-kicker {
+  margin: 0 0 0.95rem;
+  color: var(--muted);
+  font: 600 0.8rem/1.3 "IBM Plex Mono", monospace;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
 }
 
 .panel-points {

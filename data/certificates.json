@@ -2,36 +2,267 @@
   "certificates": [
     {
       "title": {
-        "ru": "TensorFlow Certificate Developer (10.2020-10.2023)",
-        "en": "TensorFlow Certificate Developer (10.2020-10.2023)"
+        "ru": "TensorFlow Certificate Developer",
+        "en": "TensorFlow Certificate Developer"
       },
       "issuer": {
         "ru": "TensorFlow",
         "en": "TensorFlow"
       },
-      "year": "2020-2023"
+      "year": "2020-2023",
+      "href": "data/CERTIFICATES/TERSORFLOW-GOOGLE/TENSORFLOW_zd0e81jv.pdf"
     },
     {
       "title": {
-        "ru": "DeepLearning.AI TensorFlow Developer",
-        "en": "DeepLearning.AI TensorFlow Developer"
+        "ru": "NSCF 2021 Certificate",
+        "en": "NSCF 2021 Certificate"
+      },
+      "issuer": {
+        "ru": "NSCF",
+        "en": "NSCF"
+      },
+      "year": "2021",
+      "href": "data/CERTIFICATES/OTHER/NSCF-2021_Certificate.pdf"
+    },
+    {
+      "title": {
+        "ru": "Yandex Ads Certificate",
+        "en": "Yandex Ads Certificate"
+      },
+      "issuer": {
+        "ru": "Yandex",
+        "en": "Yandex"
+      },
+      "year": "2021",
+      "href": "data/CERTIFICATES/OTHER/Yandex_Ad_Kushch_Artem.pdf"
+    },
+    {
+      "title": {
+        "ru": "HTML CKT",
+        "en": "HTML CKT"
+      },
+      "issuer": {
+        "ru": "Other",
+        "en": "Other"
+      },
+      "year": "2020",
+      "href": "data/CERTIFICATES/COURSES/OTHER/HTML_CKT.pdf"
+    },
+    {
+      "title": {
+        "ru": "Stepik 54403",
+        "en": "Stepik 54403"
+      },
+      "issuer": {
+        "ru": "Stepik",
+        "en": "Stepik"
+      },
+      "year": "2020",
+      "href": "data/CERTIFICATES/COURSES/STEPIK/stepik-certificate-54403-7642da0.pdf"
+    },
+    {
+      "title": {
+        "ru": "Stepik 123300",
+        "en": "Stepik 123300"
+      },
+      "issuer": {
+        "ru": "Stepik",
+        "en": "Stepik"
+      },
+      "year": "2021",
+      "href": "data/CERTIFICATES/COURSES/STEPIK/stepik-certificate-123300-b20b8f9.pdf"
+    },
+    {
+      "title": {
+        "ru": "DeepLearning.AI TensorFlow Developer · RQKWMXGCYDCG",
+        "en": "DeepLearning.AI TensorFlow Developer · RQKWMXGCYDCG"
       },
       "issuer": {
         "ru": "DeepLearning.AI",
         "en": "DeepLearning.AI"
       },
-      "year": "2020-2023"
+      "year": "2020-2023",
+      "href": "data/CERTIFICATES/COURSES/COURSERA/DeepLearning.AI%20TensorFlow%20Developer/Coursera%20RQKWMXGCYDCG.pdf"
     },
     {
       "title": {
-        "ru": "NVIDIA CUDA and accelerated computing",
-        "en": "NVIDIA CUDA and accelerated computing"
+        "ru": "DeepLearning.AI TensorFlow Developer · JUAXXDNL9TB2",
+        "en": "DeepLearning.AI TensorFlow Developer · JUAXXDNL9TB2"
+      },
+      "issuer": {
+        "ru": "DeepLearning.AI",
+        "en": "DeepLearning.AI"
+      },
+      "year": "2020-2023",
+      "href": "data/CERTIFICATES/COURSES/COURSERA/DeepLearning.AI%20TensorFlow%20Developer/Coursera%20JUAXXDNL9TB2.pdf"
+    },
+    {
+      "title": {
+        "ru": "DeepLearning.AI TensorFlow Developer · TA3L4CL6SDC8",
+        "en": "DeepLearning.AI TensorFlow Developer · TA3L4CL6SDC8"
+      },
+      "issuer": {
+        "ru": "DeepLearning.AI",
+        "en": "DeepLearning.AI"
+      },
+      "year": "2020-2023",
+      "href": "data/CERTIFICATES/COURSES/COURSERA/DeepLearning.AI%20TensorFlow%20Developer/Coursera%20TA3L4CL6SDC8.pdf"
+    },
+    {
+      "title": {
+        "ru": "DeepLearning.AI TensorFlow Developer · XEHPD7DKG7HN",
+        "en": "DeepLearning.AI TensorFlow Developer · XEHPD7DKG7HN"
+      },
+      "issuer": {
+        "ru": "DeepLearning.AI",
+        "en": "DeepLearning.AI"
+      },
+      "year": "2020-2023",
+      "href": "data/CERTIFICATES/COURSES/COURSERA/DeepLearning.AI%20TensorFlow%20Developer/Coursera%20XEHPD7DKG7HN.pdf"
+    },
+    {
+      "title": {
+        "ru": "DeepLearning.AI TensorFlow Developer · 4WJ852DRGKEC",
+        "en": "DeepLearning.AI TensorFlow Developer · 4WJ852DRGKEC"
+      },
+      "issuer": {
+        "ru": "DeepLearning.AI",
+        "en": "DeepLearning.AI"
+      },
+      "year": "2020-2023",
+      "href": "data/CERTIFICATES/COURSES/COURSERA/DeepLearning.AI%20TensorFlow%20Developer/Coursera%204WJ852DRGKEC.pdf"
+    },
+    {
+      "title": {
+        "ru": "Advanced Machine Learning with TensorFlow on Google Cloud Platform Specialization",
+        "en": "Advanced Machine Learning with TensorFlow on Google Cloud Platform Specialization"
+      },
+      "issuer": {
+        "ru": "Coursera",
+        "en": "Coursera"
+      },
+      "year": "2020-2023",
+      "href": "data/CERTIFICATES/COURSES/COURSERA/Advanced%20Machine%20Learning%20with%20TensorFlow%20on%20Google%20Cloud%20Platform%20Specialization/Coursera%20PMBD9B6NBKMX.pdf"
+    },
+    {
+      "title": {
+        "ru": "TensorFlow 2 for Deep Learning Specialization · P8KEZY7XRFEF",
+        "en": "TensorFlow 2 for Deep Learning Specialization · P8KEZY7XRFEF"
+      },
+      "issuer": {
+        "ru": "Coursera",
+        "en": "Coursera"
+      },
+      "year": "2020-2023",
+      "href": "data/CERTIFICATES/COURSES/COURSERA/TensorFlow%202%20for%20Deep%20Learning%20Specialization%20by%20IMPERIAL%20COLLEGE%20LONDON/Coursera%20P8KEZY7XRFEF.pdf"
+    },
+    {
+      "title": {
+        "ru": "TensorFlow 2 for Deep Learning Specialization · S8FMJBMQWBNL",
+        "en": "TensorFlow 2 for Deep Learning Specialization · S8FMJBMQWBNL"
+      },
+      "issuer": {
+        "ru": "Coursera",
+        "en": "Coursera"
+      },
+      "year": "2020-2023",
+      "href": "data/CERTIFICATES/COURSES/COURSERA/TensorFlow%202%20for%20Deep%20Learning%20Specialization%20by%20IMPERIAL%20COLLEGE%20LONDON/Coursera%20S8FMJBMQWBNL.pdf"
+    },
+    {
+      "title": {
+        "ru": "NVIDIA Fundamentals of Accelerated Computing with OpenACC",
+        "en": "NVIDIA Fundamentals of Accelerated Computing with OpenACC"
       },
       "issuer": {
         "ru": "NVIDIA",
         "en": "NVIDIA"
       },
-      "year": "2020"
+      "year": "2020",
+      "href": "data/CERTIFICATES/COURSES/Nvidia%20Certificate/Fundamentals%20of%20Accelerated%20Computing%20with%20OpenACC/Certificate%202e78e6b934604e11b20b1bae549370a6.pdf"
+    },
+    {
+      "title": {
+        "ru": "NVIDIA Fundamentals of Accelerated Computing with CUDA C++",
+        "en": "NVIDIA Fundamentals of Accelerated Computing with CUDA C++"
+      },
+      "issuer": {
+        "ru": "NVIDIA",
+        "en": "NVIDIA"
+      },
+      "year": "2020",
+      "href": "data/CERTIFICATES/COURSES/Nvidia%20Certificate/Fundamentals%20of%20Accelerated%20Computing%20with%20CUDA%20CC%2B%2B/Certificate%20b914e055f85445febc07f510d2cbf22b.pdf"
+    },
+    {
+      "title": {
+        "ru": "NVIDIA Fundamentals of Accelerated Computing with CUDA Python",
+        "en": "NVIDIA Fundamentals of Accelerated Computing with CUDA Python"
+      },
+      "issuer": {
+        "ru": "NVIDIA",
+        "en": "NVIDIA"
+      },
+      "year": "2020",
+      "href": "data/CERTIFICATES/COURSES/Nvidia%20Certificate/Fundamentals%20of%20Accelerated%20Computing%20with%20CUDA%20Python/Certificate%20fa9bd87e6d2f41929aff806af537be0c.pdf"
+    },
+    {
+      "title": {
+        "ru": "NVIDIA Scaling Workloads Across Multiple GPUs with CUDA C++",
+        "en": "NVIDIA Scaling Workloads Across Multiple GPUs with CUDA C++"
+      },
+      "issuer": {
+        "ru": "NVIDIA",
+        "en": "NVIDIA"
+      },
+      "year": "2020",
+      "href": "data/CERTIFICATES/COURSES/Nvidia%20Certificate/Scaling%20Workloads%20Across%20Multiple%20GPUs%20with%20CUDA%20C%2B%2B/Certificate%20ae05ffd61584413499f8bdaad3eefa6a.pdf"
+    },
+    {
+      "title": {
+        "ru": "NVIDIA Accelerating CUDA C++ Applications with Concurrent Streams",
+        "en": "NVIDIA Accelerating CUDA C++ Applications with Concurrent Streams"
+      },
+      "issuer": {
+        "ru": "NVIDIA",
+        "en": "NVIDIA"
+      },
+      "year": "2020",
+      "href": "data/CERTIFICATES/COURSES/Nvidia%20Certificate/Accelerating%20CUDA%20C%2B%2B%20Applications%20with%20Concurrent%20Streams/Certificate%20126d62ebb6f944e0876df992acb97f9e.pdf"
+    },
+    {
+      "title": {
+        "ru": "NVIDIA Accelerating End-to-End Data Science Workflows",
+        "en": "NVIDIA Accelerating End-to-End Data Science Workflows"
+      },
+      "issuer": {
+        "ru": "NVIDIA",
+        "en": "NVIDIA"
+      },
+      "year": "2020",
+      "href": "data/CERTIFICATES/COURSES/Nvidia%20Certificate/Accelerating%20End-to-End%20Data%20Science%20Workflows/Certificate%206fddf612e0cd4f529924e6ad8054c46d.pdf"
+    },
+    {
+      "title": {
+        "ru": "Cup IT 2020 DS",
+        "en": "Cup IT 2020 DS"
+      },
+      "issuer": {
+        "ru": "Hackathons",
+        "en": "Hackathons"
+      },
+      "year": "2020",
+      "href": "data/CERTIFICATES/HACKATHONS/Cup_IT_2020_DS.pdf"
+    },
+    {
+      "title": {
+        "ru": "adam.42",
+        "en": "adam.42"
+      },
+      "issuer": {
+        "ru": "Hackathons",
+        "en": "Hackathons"
+      },
+      "year": "2021",
+      "href": "data/CERTIFICATES/HACKATHONS/adam.42.pdf"
     }
   ]
 }

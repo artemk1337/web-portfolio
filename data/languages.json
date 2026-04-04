@@ -1,0 +1,25 @@
+{
+  "items": [
+    {
+      "name": {
+        "ru": "Русский",
+        "en": "Russian"
+      },
+      "level": {
+        "ru": "Родной",
+        "en": "Native"
+      }
+    },
+    {
+      "name": {
+        "ru": "Английский",
+        "en": "English"
+      },
+      "level": {
+        "ru": "Upper-Intermediate (B2)",
+        "en": "Upper-Intermediate (B2)"
+      }
+    }
+  ]
+}
+

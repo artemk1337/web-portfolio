@@ -20,7 +20,6 @@ const nodes = {
   heroSubtitle: document.querySelector(".name-subtitle"),
   heroFocusLabel: document.querySelector(".panel-card-main .panel-label"),
   heroFocusTitle: document.querySelector(".panel-card-main h2"),
-  heroFocusText: document.querySelector(".panel-card-main p:last-of-type"),
   experienceTitle: document.querySelector("#experience .section-title h2"),
   experienceTimeline: document.querySelector("#experience .timeline"),
   stackTitle: document.querySelector("#stack .section-title h2"),
@@ -51,15 +50,14 @@ const labels = {
     "hero.projects": "Смотреть проекты",
     "hero.subtitle": "Бэкенд · Golang · Python · Computer Vision",
     "hero.lead":
-      "Senior backend engineer с 5+ годами опыта в высоконагруженных системах, Golang, микросервисах, производительности и наблюдаемости.",
+      "Строю высоконагруженные бэкенд-системы на Golang: архитектура, производительность, наблюдаемость и надёжность в продакшене.",
     "hero.panel.focus.label": "Профиль",
     "hero.panel.focus.title": "Senior / Lead Backend Engineer",
-    "hero.panel.focus.text":
-      "Senior backend engineer с опытом в высоконагруженных системах, Golang и надёжности.",
+    "hero.panel.focus.text": "Ключевые факты",
     "hero.panel.point1.label": "Фокус",
     "hero.panel.point1.value": "Высоконагруженный бэкенд и надёжность",
     "hero.panel.point2.label": "Сильные стороны",
-    "hero.panel.point2.value": "Golang, микросервисы, observability",
+    "hero.panel.point2.value": "Golang, микросервисы, наблюдаемость",
     "hero.panel.point3.label": "Формат работы",
     "hero.panel.point3.value": "Производительность, команда, результат",
     "experience.eyebrow": "Опыт",
@@ -108,11 +106,10 @@ const labels = {
     "hero.projects": "View projects",
     "hero.subtitle": "Backend · Golang · Python · Computer Vision",
     "hero.lead":
-      "Senior backend engineer with 5+ years in high-load systems, Golang, microservices, performance, and observability.",
+      "I build high-load backend systems on Golang: architecture, performance, observability, and production reliability.",
     "hero.panel.focus.label": "Profile",
     "hero.panel.focus.title": "Senior / Lead Backend Engineer",
-    "hero.panel.focus.text":
-      "Senior backend engineer with experience in high-load systems, Golang, and reliability.",
+    "hero.panel.focus.text": "Key facts",
     "hero.panel.point1.label": "Focus",
     "hero.panel.point1.value": "High-load backend and reliability",
     "hero.panel.point2.label": "Strengths",
@@ -276,7 +273,6 @@ function renderHero() {
   setText(nodes.heroSubtitle, localized(profile.hero.subtitle));
   setText(nodes.heroFocusLabel, localized(profile.panel.focus.label));
   setText(nodes.heroFocusTitle, localized(profile.panel.focus.title));
-  setText(nodes.heroFocusText, localized(profile.panel.focus.text));
 
   if (nodes.certificateCount) {
     nodes.certificateCount.textContent = String(state.certificates.length);
