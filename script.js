@@ -1,6 +1,7 @@
 const year = document.getElementById("year");
 const langButtons = document.querySelectorAll(".lang-btn");
 const translatable = document.querySelectorAll("[data-i18n]");
+const ariaTranslatable = document.querySelectorAll("[data-i18n-aria-label]");
 const scrollTopButton = document.querySelector(".scroll-top");
 
 const nodes = {
@@ -44,22 +45,28 @@ const labels = {
     "stats.companies.label": "Компании",
     "stats.certificates.label": "Сертификаты",
     "stats.role.label": "Роль",
-    "stats.role.value": "Senior / Lead backend engineer",
+    "stats.role.value": "Senior / Lead Backend Engineer",
     "hero.github": "GitHub",
     "hero.projects": "Смотреть проекты",
-    "hero.role": "Senior / Lead Backend Engineer",
-    "hero.subtitle": "Golang · микросервисы · наблюдаемость",
+    "hero.role": "Ведущий разработчик бэкенда",
+    "hero.subtitle": "Go · микросервисы · наблюдаемость",
     "hero.lead":
-      "Строю надёжные distributed systems с фокусом на задержки, observability и delivery.",
+      "Строю надёжные распределённые системы с фокусом на задержки, наблюдаемость и результат.",
     "hero.panel.focus.label": "Профиль",
-    "hero.panel.focus.title": "Backend systems",
-    "hero.panel.focus.text": "Golang, микросервисы, performance и наблюдаемость.",
+    "hero.panel.focus.title": "Бэкенд-системы",
+    "hero.panel.focus.text": "Go, микросервисы, производительность и наблюдаемость.",
     "hero.metric1.value": "5+ лет",
-    "hero.metric1.label": "backend-разработка",
+    "hero.metric1.label": "разработка бэкенда",
     "hero.metric2.value": "10M RPS",
     "hero.metric2.label": "масштаб продакшена",
     "hero.metric3.value": "4 инженера",
-    "hero.metric3.label": "лидерство команды",
+    "hero.metric3.label": "руководство командой",
+    "hero.metrics.label": "Ключевые метрики",
+    "hero.skills.label": "Ключевые навыки",
+    "hero.skill1": "Go",
+    "hero.skill2": "Микросервисы",
+    "hero.skill3": "Наблюдаемость",
+    "hero.skill4": "Производительность",
     "experience.eyebrow": "Опыт",
     "experience.title": "Опыт и ключевые результаты",
     "experience.subtitle": "Роли, проекты и вклад в продукт",
@@ -100,22 +107,28 @@ const labels = {
     "stats.companies.label": "Companies",
     "stats.certificates.label": "Certificates",
     "stats.role.label": "Role",
-    "stats.role.value": "Senior / Lead backend engineer",
+    "stats.role.value": "Senior / Lead Backend Engineer",
     "hero.github": "GitHub",
     "hero.projects": "View projects",
     "hero.role": "Senior / Lead Backend Engineer",
-    "hero.subtitle": "Golang · Microservices · Observability",
+    "hero.subtitle": "Go · Microservices · Observability",
     "hero.lead":
       "Building reliable distributed systems with a focus on latency, observability, and delivery.",
     "hero.panel.focus.label": "Profile",
     "hero.panel.focus.title": "Backend systems",
-    "hero.panel.focus.text": "Golang, microservices, performance and observability.",
+    "hero.panel.focus.text": "Go, microservices, performance, and observability.",
     "hero.metric1.value": "5+ years",
     "hero.metric1.label": "backend development",
     "hero.metric2.value": "10M RPS",
     "hero.metric2.label": "production scale",
     "hero.metric3.value": "4 engineers",
     "hero.metric3.label": "team leadership",
+    "hero.metrics.label": "Key metrics",
+    "hero.skills.label": "Key skills",
+    "hero.skill1": "Go",
+    "hero.skill2": "Microservices",
+    "hero.skill3": "Observability",
+    "hero.skill4": "Performance",
     "experience.eyebrow": "Experience",
     "experience.title": "Experience and key results",
     "experience.subtitle": "Roles, projects, and product impact",
@@ -246,6 +259,13 @@ function renderTranslations() {
     const value = dictionary[element.dataset.i18n];
     if (value) {
       element.innerHTML = value;
+    }
+  });
+
+  ariaTranslatable.forEach((element) => {
+    const value = dictionary[element.dataset.i18nAriaLabel];
+    if (value) {
+      element.setAttribute("aria-label", value);
     }
   });
 
