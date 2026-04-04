@@ -18,7 +18,6 @@ const nodes = {
   certificatesList: document.getElementById("certificates-list"),
   heroEyebrow: document.querySelector(".hero-copy .eyebrow"),
   heroTitle: document.querySelector(".hero-copy h1"),
-  heroSubtitle: document.querySelector(".name-subtitle"),
   heroFocusLabel: document.querySelector(".panel-card-main .panel-label"),
   heroFocusTitle: document.querySelector(".panel-card-main h2"),
   experienceTitle: document.querySelector("#experience .section-title h2"),
@@ -47,9 +46,9 @@ const labels = {
     "stats.role.label": "Роль",
     "stats.role.value": "Senior / Lead Backend Engineer",
     "hero.github": "GitHub",
+    "hero.resume": "Скачать PDF",
     "hero.projects": "Смотреть проекты",
     "hero.role": "Ведущий разработчик бэкенда",
-    "hero.subtitle": "Go · микросервисы · наблюдаемость",
     "hero.lead":
       "Строю надёжные распределённые системы с фокусом на задержки, наблюдаемость и результат.",
     "hero.panel.focus.label": "Профиль",
@@ -109,9 +108,9 @@ const labels = {
     "stats.role.label": "Role",
     "stats.role.value": "Senior / Lead Backend Engineer",
     "hero.github": "GitHub",
+    "hero.resume": "Download PDF",
     "hero.projects": "View projects",
     "hero.role": "Senior / Lead Backend Engineer",
-    "hero.subtitle": "Go · Microservices · Observability",
     "hero.lead":
       "Building reliable distributed systems with a focus on latency, observability, and delivery.",
     "hero.panel.focus.label": "Profile",
@@ -290,7 +289,6 @@ function renderHero() {
 
   setText(nodes.heroEyebrow, localized(profile.hero.eyebrow));
   setText(nodes.heroTitle, localized(profile.hero.title));
-  setText(nodes.heroSubtitle, localized(profile.hero.subtitle));
   setText(nodes.heroFocusLabel, localized(profile.panel.focus.label));
   setText(nodes.heroFocusTitle, localized(profile.panel.focus.title));
 

@@ -12,10 +12,6 @@
       "ru": "Senior / Lead Backend Engineer",
       "en": "Senior / Lead Backend Engineer"
     },
-    "subtitle": {
-      "ru": "Go · микросервисы · наблюдаемость",
-      "en": "Go · Microservices · Observability"
-    },
     "lead": {
       "ru": "Строю надёжные распределённые системы с фокусом на задержки, наблюдаемость и результат.",
       "en": "Building reliable distributed systems with a focus on latency, observability, and delivery."
