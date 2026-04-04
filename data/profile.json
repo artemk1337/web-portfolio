@@ -1,20 +1,24 @@
 {
   "hero": {
     "eyebrow": {
-      "ru": "VK · Russia · Moscow",
-      "en": "VK · Russia · Moscow"
+      "ru": "Москва · Backend systems",
+      "en": "Moscow · Backend systems"
     },
     "title": {
       "ru": "Кущ Артем",
       "en": "Kushch Artem"
     },
+    "role": {
+      "ru": "Senior / Lead Backend Engineer",
+      "en": "Senior / Lead Backend Engineer"
+    },
     "subtitle": {
-      "ru": "Бэкенд · Golang · Python · Computer Vision",
-      "en": "Backend · Golang · Python · Computer Vision"
+      "ru": "Golang · микросервисы · наблюдаемость",
+      "en": "Golang · Microservices · Observability"
     },
     "lead": {
-      "ru": "Строю высоконагруженные бэкенд-системы на Golang: архитектура, производительность, наблюдаемость и надёжность в продакшене.",
-      "en": "I build high-load backend systems on Golang: architecture, performance, observability, and production reliability."
+      "ru": "Строю надёжные distributed systems с фокусом на задержки, observability и delivery.",
+      "en": "Building reliable distributed systems with a focus on latency, observability, and delivery."
     }
   },
   "panel": {
@@ -24,12 +28,12 @@
         "en": "Profile"
       },
       "title": {
-        "ru": "Senior / Lead Backend Engineer",
-        "en": "Senior / Lead Backend Engineer"
+        "ru": "Backend systems",
+        "en": "Backend systems"
       },
       "text": {
-        "ru": "Ключевые факты",
-        "en": "Key facts"
+        "ru": "Golang, микросервисы, performance и наблюдаемость.",
+        "en": "Golang, microservices, performance and observability."
       }
     }
   },
