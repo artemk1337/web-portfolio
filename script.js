@@ -1,4 +1,6 @@
 const year = document.getElementById("year");
+const langSwitch = document.querySelector(".lang-switch");
+const langSwitchIndicator = document.querySelector(".lang-switch-indicator");
 const langButtons = document.querySelectorAll(".lang-btn");
 const translatable = document.querySelectorAll("[data-i18n]");
 const ariaTranslatable = document.querySelectorAll("[data-i18n-aria-label]");
@@ -301,6 +303,12 @@ function renderTranslations() {
     button.classList.toggle("is-active", button.dataset.lang === currentLanguage);
   });
 
+  if (langSwitch) {
+    langSwitch.dataset.lang = currentLanguage;
+  }
+
+  syncLangSwitchIndicator();
+
   if (scrollTopButton) {
     scrollTopButton.setAttribute("aria-label", labels[currentLanguage].scrollTop);
     scrollTopButton.title = labels[currentLanguage].scrollTop;
@@ -308,6 +316,20 @@ function renderTranslations() {
 
   setText(year, String(new Date().getFullYear()));
   document.documentElement.lang = currentLanguage;
+}
+
+function syncLangSwitchIndicator() {
+  if (!langSwitch || !langSwitchIndicator) {
+    return;
+  }
+
+  const activeButton = langSwitch.querySelector(`.lang-btn[data-lang="${currentLanguage}"]`);
+  if (!activeButton) {
+    return;
+  }
+
+  langSwitchIndicator.style.left = `${activeButton.offsetLeft}px`;
+  langSwitchIndicator.style.width = `${activeButton.offsetWidth}px`;
 }
 
 function renderHero() {
@@ -771,6 +793,9 @@ if (scrollTopButton) {
     });
   });
 }
+
+window.addEventListener("resize", syncLangSwitchIndicator, { passive: true });
+window.addEventListener("load", syncLangSwitchIndicator, { once: true });
 
 if ("IntersectionObserver" in window) {
   revealObserver = new IntersectionObserver(
