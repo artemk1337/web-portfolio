@@ -3,6 +3,17 @@
     {
       "id": "01",
       "kind": "article",
+      "title": "Проектирование микросервисов на Go: типичные сложности и лучшие практики",
+      "href": "https://habr.com/ru/companies/vk/articles/1021702/",
+      "description": {
+        "ru": "Статья о том, как проектировать микросервисы на Go: от постановки требований и оценки нагрузки до оптимизации RPS, работы с GC и практик вроде буферизации, gRPC, sync.Pool и кешей.",
+        "en": "An article about designing Go microservices: from requirements and load analysis to optimizing RPS, GC behavior, and practices like buffering, gRPC, sync.Pool, and caches."
+      },
+      "tags": ["Habr", "Go", "Microservices"]
+    },
+    {
+      "id": "02",
+      "kind": "article",
       "title": "SiameseDCGAN with embedding layers and contrastive loss",
       "href": "https://medium.com/bubblegan/siamesedcgan-with-embedding-layers-and-contrastive-loss-9e3f6c1f906e",
       "description": {
@@ -12,7 +23,7 @@
       "tags": ["Medium", "Deep Learning", "Contrastive loss"]
     },
     {
-      "id": "02",
+      "id": "03",
       "kind": "talk",
       "title": "OneTwoTrip meetup",
       "href": "https://vkvideo.ru/video-229335646_456239092",

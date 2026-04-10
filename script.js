@@ -96,8 +96,10 @@ const labels = {
     "articles.type.article": "Статья",
     "articles.type.talk": "Выступление",
     "articles.item1.text":
-      "Статья про siamese DCGAN на Keras: как one-shot learning и embedding layers помогают работать с малым объёмом данных, а contrastive loss применяется для классификации и генерации изображений.",
+      "Статья о том, как проектировать микросервисы на Go: от постановки требований и оценки нагрузки до оптимизации RPS, работы с GC и практик вроде буферизации, gRPC, sync.Pool и кешей.",
     "articles.item2.text":
+      "Статья про siamese DCGAN на Keras: как one-shot learning и embedding layers помогают работать с малым объёмом данных, а contrastive loss применяется для классификации и генерации изображений.",
+    "articles.item3.text":
       "Короткий разбор про проектирование микросервисов на Go: типичные сложности и практики, которые помогают держать баланс между скоростью и простотой.",
     "articles.open": "Открыть",
     "edu.eyebrow": "Сертификаты",
@@ -169,8 +171,10 @@ const labels = {
     "articles.type.article": "Article",
     "articles.type.talk": "Talk",
     "articles.item1.text":
-      "An article about a siamese DCGAN in Keras: how one-shot learning and embedding layers help with limited data, and how contrastive loss is used for image classification and generation.",
+      "An article about designing Go microservices: from requirements and load analysis to optimizing RPS, GC behavior, and practices like buffering, gRPC, sync.Pool, and caches.",
     "articles.item2.text":
+      "An article about a siamese DCGAN in Keras: how one-shot learning and embedding layers help with limited data, and how contrastive loss is used for image classification and generation.",
+    "articles.item3.text":
       "A short talk about designing Go microservices: typical pitfalls and practices that help balance speed and simplicity.",
     "articles.open": "Open",
     "edu.eyebrow": "Certificates",
